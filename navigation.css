@@ -1,0 +1,266 @@
+body {
+  background-color: wheat;
+}
+
+.contact {
+  height: 50px;
+  width: 90%;
+  text-align: left;
+  background-color: white;
+  margin: 0px auto;
+  border-bottom: 1px ridge black;
+  border-top: 1px ridge black;
+}
+
+#style {
+  font-size: 35px;
+  /* font-weight: bold; */
+}
+
+ul li {
+  display: inline;
+  color: navy;
+  padding: 5px;
+}
+
+.handle {
+  height: 50px;
+  width: 90%;
+  background-color: white;
+  border-bottom: 1px ridge black;
+  padding: 0px;
+  text-align: right;
+  position: sticky;
+  top: 0px;
+  margin: 0px auto;
+
+}
+
+li {
+  display: inline;
+  color: black;
+  padding: 20px;
+  font-family: sans-serif;
+
+}
+
+li a {
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+}
+
+.image {
+  height: 600px;
+  width: 90%;
+  margin: 0px auto;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.container {
+  height: 600px;
+  width: 90%;
+  margin: 0px auto;
+  background-color: gray;
+  display: flex;
+}
+
+.col {
+  height: 90%;
+  width: 100%;
+  margin: 10px auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;
+  border: solid 2px black;
+  background-color: white;
+}
+
+.col img {
+  height: 35%;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.col h1 {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.col p {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.plans {
+  height: 600px;
+  width: 90%;
+  /* border: 1px solid black; */
+  /* background-color: #13102C; */
+  background-image: linear-gradient(to top, navy, black);
+  /* background:linear-gradient(to left,rgb(203, 133, 144), pink, rgb(250, 194, 250),rgb(245, 245, 178),skyblue, navy); */
+  display: flex;
+  margin: 0px auto;
+}
+
+.pro {
+  height: 90%;
+  border: 2px solid black;
+  width: 25%;
+  margin: 30px auto;
+  padding: 10px;
+  background-color: white;
+}
+
+.pro p {
+  font-size: 25px;
+  /* text-align: left; */
+}
+
+button {
+  border-radius: 50px;
+  background-color: #ffc300;
+  width: 210px;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+  margin-right: 20px;
+  /* text-align: center; */
+  font-family: sans-serif;
+  /* justify-content: center; */
+
+}
+
+.pro:nth-of-type(2) {
+  /* background-color: navy; */
+  /* background:linear-gradient(to left,rgb(203, 133, 144), pink, rgb(250, 194, 250),rgb(245, 245, 178),skyblue, navy); */
+  /* background-image: linear-gradient(to bottom, navy, rgb(60, 59, 59)); */
+  background-image: linear-gradient(to top, navy, black);
+  color: white;
+
+}
+
+/* .feedback{
+            height: 500px;
+            width: 90%;
+            margin: 0px auto;
+            background-color: white;
+            /* margin-top: 0px; 
+        }*/
+
+
+
+.info button {
+  text-shadow: 0px 0px 10px red;
+  height: 25px;
+  width: 173px;
+  border-radius: 0%;
+  background-color: white;
+  /* padding: 10px; */
+  margin: 10px auto;
+  /* box-shadow:2px 2px 2px 2px yellow; */
+}
+
+.news {
+  height: 500px;
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  color: white;
+  background-image: linear-gradient(to top, navy, black);
+}
+
+.info {
+  height: 400px;
+  width: 100%;
+  margin: 60px;
+  box-sizing: border-box;
+}
+
+.info h1 {
+  width: 100%;
+}
+
+.info a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.info h1 {
+  font-size: 40px;
+}
+
+.info p {
+  font-size: 20px;
+}
+
+.info form {
+  color: black;
+  /* background-color: green; */
+  border: solid 1px black;
+  height: 21px;
+  width: 170px;
+
+}
+
+.box {
+  margin: 0px auto;
+  height: 500px;
+  width: 90%;
+  border: black;
+  background-color: gray;
+}
+
+.box label {
+  font-size: 20px;
+}
+
+.box h2 {
+  margin: 0px;
+}
+
+.box input {
+  border: none;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  background-color: white;
+}
+
+#btn {
+  border-radius: 20px;
+  background-color: rgb(3, 40, 83);
+  height: 25px;
+  width: 25%;
+  position: relative;
+  left: 40%;
+  font-size: 15px;
+  color: white;
+
+}
+
+.box form {
+  /* height: 600px; */
+  width: 70%;
+  margin: 0px auto;
+  /* padding: 20px; */
+}
+
+.box fieldset {
+  /* border: black; */
+  color: black;
+  /* padding: 10px; */
+}
+
+#col {
+  height: 120px;
+  text-align: justify;
+}
